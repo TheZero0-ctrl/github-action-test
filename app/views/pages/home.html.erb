@@ -1,0 +1,14 @@
+<h1>Pages#home</h1>
+<% if user_signed_in? %>
+  <p>Logged in as <%= current_user.email %></p>
+  <%= link_to "Sign out", destroy_user_session_path %>
+<% else %>
+  <%= link_to "Log in", new_user_session_path %><br />
+  <%= link_to "Sign up", new_user_registration_path %><br />
+<% end %>
+
+<ul>
+  <li>
+    <%= link_to "Books", books_path %>
+  </li>
+</ul>
