@@ -65,7 +65,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-gem 'boring_generators', path: '/Users/truemark/ankit/contribution/boring_generators'
+# gem 'boring_generators', path: '/Users/truemark/ankit/contribution/boring_generators'
 
 
 gem "devise", "~> 4.9"
