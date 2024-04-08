@@ -70,8 +70,3 @@ gem 'boring_generators', path: '/Users/truemark/ankit/contribution/boring_genera
 
 gem "devise", "~> 4.9"
 gem "pry"
-gem "pronto"
-gem "pronto-brakeman", require: false
-gem "pronto-flay", require: false
-gem "pronto-reek", require: false
-gem "pronto-rubocop", require: false
